@@ -1,8 +1,8 @@
 commit_all() {
-  echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nCopy dot files and add\n'
+  echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nCopy dot files and add\nvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv'
   eval 'cp ../.zshrc ../.zprofile ../.zshenv ../.zlogin .'
   eval 'git add .'
-  echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nCommit files\n'
+  echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nCommit files\nvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv'
   if [[ ${1+'set'} ]]
   then
     eval 'git commit -m "$1"'
