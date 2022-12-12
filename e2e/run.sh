@@ -1,6 +1,6 @@
 run() {
   echo '\n>>>>>>>>>>>>>>>>>>>>>>>\nRuning e2e\n>>>>>>>>>>>>>>>>>>>>>>>\n'
-  eval 'WEBDRIVER_DRIVER_VERSION=$CHROMEDRIVER_VERSION WEBDRIVER_MAXINSTANCES=5 npm run test:e2e'
+  eval 'WEBDRIVER_BASE_URL=https://sandbox.bbc.co.uk WEBDRIVER_DRIVER_VERSION=$CHROMEDRIVER_VERSION WEBDRIVER_MAXINSTANCES=5 npm run test:e2e'
 }
 
 run_debug() {
