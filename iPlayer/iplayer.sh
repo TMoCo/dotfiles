@@ -1,6 +1,6 @@
 # Script for iPlayer use
 
-# DIRECT COPY OF THE PORTS IN devproxy/config/local.js 
+# DIRECT COPY OF THE PORTS IN devproxy/config/local.js
 export BUNDLES_PORT=8080
 export FEATURES_PORT=8081
 export HIGHLIGHTS_PORT=8082
