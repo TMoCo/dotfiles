@@ -28,4 +28,4 @@ alias iplayer='cd ~/iplayer/workspace'
 alias boilerplate='cd ~/iplayer/workspace/iplayer-web-app-boilerplate'
 alias tip='cd ~/iplayer/workspace/iplayer-web-tip-playback'
 
-alias runv2='PORT=$PLAYBACK_PORT npm run debug'
+alias runplayback='PORT=$PLAYBACK_PORT npm run debug'

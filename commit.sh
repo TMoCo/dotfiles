@@ -1,6 +1,5 @@
 commit_all() {
   echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nCopy dot files and add\nvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv'
-  eval 'cp ../.zshrc ../.zprofile ../.zshenv ../.zlogin .'
   eval 'git add .'
   echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nCommit files\nvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv'
   if [[ ${1+'set'} ]]
