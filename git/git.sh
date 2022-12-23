@@ -7,3 +7,5 @@ alias gstatus='git status'
 alias grestore='git restore'
 alias gadd='git add'
 alias gcheckout='git checkout'
+
+alias bfg='java -jar ~/utils/bfg-1.14.0.jar'
