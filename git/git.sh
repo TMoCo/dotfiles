@@ -9,3 +9,5 @@ alias gadd='git add'
 alias gcheckout='git checkout'
 
 alias bfg='java -jar ~/utils/bfg-1.14.0.jar'
+
+alias gpgpc='echo $GPG_PASSCODE'

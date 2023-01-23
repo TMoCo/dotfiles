@@ -24,7 +24,7 @@ alias myprogrammes='cd ~/workspaces/iplayer/web/iplayer-web-app-myprogrammes'
 alias lists='cd ~/workspaces/iplayer/web/iplayer-web-app-lists'
 alias devproxy='cd ~/workspaces/iplayer/web/iplayer-web-dev-proxy'
 alias components='cd ~/workspaces/iplayer/web/iplayer-web-components'
-alias iplayer='cd ~/iplayer/workspaces'
+alias iplayer='cd ~/workspaces/iplayer/web'
 alias boilerplate='cd ~/workspaces/iplayer/web/iplayer-web-app-boilerplate'
 alias tip='cd ~/workspaces/iplayer/web/iplayer-web-tip-playback'
 

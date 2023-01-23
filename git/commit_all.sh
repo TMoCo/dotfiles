@@ -1,5 +1,4 @@
-commit_all() {
-    echo ' _   _____ ________  ______  ________ _____    ___   _      _       _ 
+echo ' _   _____ ________  ______  ________ _____    ___   _      _       _ 
 | | /  __ \  _  |  \/  ||  \/  |_   _|_   _|  / _ \ | |    | |     | |
 | | | /  \/ | | | .  . || .  . | | |   | |   / /_\ \| |    | |     | |
 | | | |   | | | | |\/| || |\/| | | |   | |   |  _  || |    | |     | |
@@ -7,13 +6,9 @@ commit_all() {
 (_)  \____/\___/\_|  |_/\_|  |_/\___/  \_/   \_| |_/\_____/\_____/ (_)
                                                                                                                                 
 '
-  eval 'git add .'
-  if [[ ${1+'set'} ]]
-  then
-    eval 'git commit -m "$1"'
-  else
-    eval 'git commit -m "update scripts"'
-  fi
-}
-
-commit_all $1
+eval 'git add .'
+if [[ ${1+'set'} ]]; then
+  eval 'git commit -m "$1"'
+else
+  eval 'git commit -m "update scripts"'
+fi
