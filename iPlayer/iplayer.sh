@@ -6,7 +6,7 @@ export FEATURES_PORT=8081
 export HIGHLIGHTS_PORT=8082
 export LISTS_PORT=8083
 export MYPROGRAMMES_PORT=8084
-export PLAYBACK_PORT=8085
+export PLAYBACKV2_PORT=8085
 export GUIDE_PORT=8086
 export ATOZ_PORT=8087
 export BOILERPLATE_PORT=8088
@@ -28,4 +28,5 @@ alias iplayer='cd ~/workspaces/iplayer/web'
 alias boilerplate='cd ~/workspaces/iplayer/web/iplayer-web-app-boilerplate'
 alias tip='cd ~/workspaces/iplayer/web/iplayer-web-tip-playback'
 
-alias runplayback='PORT=$PLAYBACK_PORT npm run debug'
+alias runplayback='PORT=$PLAYBACKV2_PORT npm run debug'
+alias runhighlights='PORT=$HIGHLIGHTS_PORT npm run debug'
